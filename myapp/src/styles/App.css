@@ -1,0 +1,10 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    background-color: white;
+}
+nav{
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.465);
+    padding : 3rem;
+}

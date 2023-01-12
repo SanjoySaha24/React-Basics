@@ -1,0 +1,41 @@
+npx create-react-app myapp
+cd myapp
+npm start
+
+In the folder, only keep public:~ index, manifest
+			 src:~ App, index, 2 package, readme., gitignore
+--------------------------------------------------------------------------------------
+index.js
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import App from './App';
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <>
+
+  <App />  
+
+  </>
+);
+--------------------------------------------------------------------------------------
+app.js use ~
+rafce = reactArrowFunctionExportComponent
+rafc = raectArrowFunctionComponent
+--------------------------------------------------------------------------------------
+
+https://www.youtube.com/watch?v=41KjvzKzm-I
+
+npm install gh-pages --save-dev
+
+git remote add origin <github.io name>
+
+"homepage": "http://SanjoySaha24.github.io/To-Do_ReactJs",
+
+
+
+"scripts": {
+"predeploy":"npm run build",
+    "deploy": "gh-pages -d build"
+
+npm run deploy
