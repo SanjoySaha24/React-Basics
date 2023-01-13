@@ -1,6 +1,9 @@
+Tutorial followed ~ https://www.youtube.com/watch?v=b50zSyLiCYQ&t=3132s
+
 npx create-react-app myapp
 cd myapp
 npm start
+** If you have created a folder and want to add files in it use ~ npx create-react-app . **
 
 In the folder, only keep public:~ index, manifest
 			 src:~ App, index, 2 package, readme., gitignore
