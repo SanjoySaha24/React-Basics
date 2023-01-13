@@ -28,7 +28,23 @@ rafc = raectArrowFunctionComponent
 React Router installation :~ npm i react-router-dom
 Inside App.jsx  :-
  import {BrowserRouter as Router,Routes,Route} from "react-router-dom"
+ import Home from "./components/Home"
+import About from "./components/About" etc.
 
+const App = () => {
+  return(
+    <>
+    <Header />
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="*" element={<div>Page not found 404</div>} />
+          </Routes>
+      </Router>
+    </>
+  )
+}
 
 --------------------------------------------------------------------------------------
 
