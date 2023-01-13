@@ -19,9 +19,17 @@ root.render(
   </>
 );
 --------------------------------------------------------------------------------------
-app.js use ~
+App.jsx use ~
 rafce = reactArrowFunctionExportComponent
 rafc = raectArrowFunctionComponent
+
+--------------------------------------------------------------------------------------
+
+React Router installation :~ npm i react-router-dom
+Inside App.jsx  :-
+ import {BrowserRouter as Router,Routes,Route} from "react-router-dom"
+
+
 --------------------------------------------------------------------------------------
 
 https://www.youtube.com/watch?v=41KjvzKzm-I
